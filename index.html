@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/index_style.css">
+    </head>
+    <body>
+        <section>
+            <h1 class="text-center text-warning py-5">Age Calculator</h1>
+            <div class="container">
+                <div class="row">
+                   <div class="col-md-6 m-auto">
+                    <label for="birthday">Enter your birthday</label>
+                    <input id="birthday" class="form-control" type="date" value="1900-01-01">
+                   </div>
+                </div>
+                <div class="alert">
+                   <p>Invalid Date</p>
+               </div>
+                <div class="text-center">
+                    <button class="btn btn-danger my-3">Calculate Age</button>
+                    <div class="res">
+                        <p>Your age is: <span id="res"></span></p>
+                    </div>
+                </div>
+            </div>    
+        </section>
+       
+
+
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
